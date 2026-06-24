@@ -57,3 +57,7 @@ navLinks.forEach(link => {
     });
 
 });
+
+document.getElementById("whatsapp-btn").addEventListener("click", () => {
+    gtag('event', 'whatsapp_click');
+});
