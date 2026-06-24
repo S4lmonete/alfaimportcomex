@@ -170,7 +170,7 @@ section{
 }
 
 .card{
-    background:#1c1c1c;
+    background:#202020;
     padding:30px;
     border-radius:10px;
     border-top:4px solid var(--red);
@@ -190,9 +190,13 @@ section{
     border-radius:10px;
 }
 
+.about{
+    background:var(--gray);
+}
+
 .contact{
     text-align:center;
-    background:var(--gray);
+    background:var(--black);
 }
 
 .contact h2{
